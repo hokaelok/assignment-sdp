@@ -1,0 +1,17 @@
+{
+  "name": "sdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:tailwind": "tailwindcss -i style.css -o ./application/css/style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

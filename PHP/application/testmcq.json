@@ -1,0 +1,38 @@
+
+{
+   "mcq-uid": "d801c04c-88dc-438b-91f3-4bb7cefaf2f0",
+   "title":"Javascript questions",
+   "created-by": "John",
+   "questions":[
+      {
+         "question":"Who invented JavaScript?",
+         "answers":{
+            "a":"Douglas Crockford",
+            "b":"Sheryl Sandberg",
+            "c":"Brendan Eich",
+            "d": "Jonathan Liz"
+         },
+         "correctAnswer":"c"
+      },
+      {
+         "question":"Which one of these is a JavaScript package manager?",
+         "answers":{
+            "a":"Node.js",
+            "b":"TypeScript",
+            "c":"npm",
+            "d":"laravel"
+         },
+         "correctAnswer":"c"
+      },
+      {
+         "question":"Which tool can you use to ensure code quality?",
+         "answers":{
+            "a":"Angular",
+            "b":"jQuery",
+            "c":"RequireJS",
+            "d":"ESLint"
+         },
+         "correctAnswer":"d"
+      }
+   ]
+}

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Verdana;
+	background-color: #f5f5f5;
+	height: 100%;
+}
+
+.landingbg {
+	background-image: url(./application/image/education.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+.TnCbg {
+	background-image: url(./application/image/terms-and-condition.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 75%;
+}
+
+.subject-card {
+	@apply bg-white shadow-md w-48 p-3 text-center transition-transform hover:cursor-pointer hover:scale-105 hover:shadow-lg;
+}
+
+.subject-card-container {
+	@apply w-4/6 m-auto pb-10 flex flex-wrap justify-center gap-5 lg:gap-20;
+}
